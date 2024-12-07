@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./sidePanel.css"
+import "./styles/sidePanel.css"
 
 
 // A reusable component for contact items
@@ -33,9 +33,9 @@ const SidePanel = ({
   birthday = "08-05-2001",
   location = "Ahmedabad, Gujurat, India",
   socialLinks = [
-    { iconName: "logo-facebook", href: "#" },
-    { iconName: "logo-twitter", href: "#" },
-    { iconName: "logo-instagram", href: "#" },
+    { iconName: "logo-linkedin", href: "https://linkedin.com/in/suraj-aherrao-585625247" },
+    { iconName: "logo-github", href: "https://github.com/SurajAherrao" },
+    { iconName: "logo-instagram", href: "https://www.instagram.com/aherrao_5/profilecard/?igsh=Y3g4ODc5Z2wxcWM4" },
   ],
 }) => {
 

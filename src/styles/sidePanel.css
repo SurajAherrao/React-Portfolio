@@ -211,12 +211,17 @@ article {
         width: calc(100% - 64px);
     }
 
-    .sidebar,
-    article {
+    .sidebar{
         width: 520px;
         margin-inline: auto;
         padding: 30px;
         max-height: 182px;
+    }
+
+    article {
+        width: 520px;
+        margin-inline: auto;
+        padding: 30px;
     }
 
     .sidebar.active {

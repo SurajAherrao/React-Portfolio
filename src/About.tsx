@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/about.css"
 
 const About = () => {
   const services = [
@@ -64,6 +65,9 @@ const About = () => {
         <ul className="service-list">
           {services.map((service, index) => (
             <li className="service-item" key={index}>
+              {/* <div className="service-icon-box">
+                <img src={service.icon} alt={`${service.title} icon`} width="40" />
+              </div> */}
               <div className="service-content-box">
                 <h4 className="h4 service-item-title">{service.title}</h4>
                 <p className="service-item-text">{service.description}</p>
